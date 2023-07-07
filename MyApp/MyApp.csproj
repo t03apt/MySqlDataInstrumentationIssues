@@ -9,6 +9,7 @@
 	<ItemGroup>
 		<PackageReference Include="Dapper" Version="2.0.123" />
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+		<!-- See: https://github.com/open-telemetry/opentelemetry-dotnet/issues/4643 OpenTelemetry.Instrumentation.MySqlData stopped working at MySql.Data@8.0.31 -->
 		<PackageReference Include="MySql.Data" Version="8.0.30" />
 		<PackageReference Include="OpenTelemetry" Version="1.5.1" />
 		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.5.1" />
