@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+!MySql.Data@8.0.30.log
+!MySql.Data@8.0.31.log

@@ -1,0 +1,190 @@
+Building...
+dbug: Program[0]
+      Starting MySql container
+info: Program[0]
+      Connected to Docker:
+        Host: npipe://./pipe/docker_engine
+        Server Version: 23.0.6
+        Kernel Version: 5.15.90.1-microsoft-standard-WSL2
+        API Version: 1.42
+        Operating System: Rancher Desktop WSL Distribution
+        Total Memory: 30.92 GB
+info: Program[0]
+      Docker container 81476e48e84b created
+info: Program[0]
+      Start Docker container 81476e48e84b
+info: Program[0]
+      Wait for Docker container 81476e48e84b to complete readiness checks
+info: Program[0]
+      Docker container 81476e48e84b ready
+info: Program[0]
+      Docker container 85ac70fd4ef0 created
+info: Program[0]
+      Start Docker container 85ac70fd4ef0
+info: Program[0]
+      Wait for Docker container 85ac70fd4ef0 to complete readiness checks
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 85ac70fd4ef0
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 85ac70fd4ef0
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 85ac70fd4ef0
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 85ac70fd4ef0
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 85ac70fd4ef0
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 85ac70fd4ef0
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 85ac70fd4ef0
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 85ac70fd4ef0
+info: Program[0]
+      Docker container 85ac70fd4ef0 ready
+dbug: Program[0]
+      Started MySql container
+dbug: Microsoft.Extensions.Hosting.Internal.Host[1]
+      Hosting starting
+info: MyApp.Worker[0]
+      Sending MySql command
+Activity.TraceId:            3cc2683b8a2f04a7ed29aa790e6a14e4
+Activity.SpanId:             7bacbcb2333d77a9
+Activity.TraceFlags:         Recorded
+Activity.ActivitySourceName: OpenTelemetry.Instrumentation.MySqlData
+Activity.DisplayName:        mysql
+Activity.Kind:               Client
+Activity.StartTime:          2023-07-07T12:52:46.9064676Z
+Activity.Duration:           00:00:00.0049274
+Activity.Tags:
+    db.system: mysql
+    db.statement: SELECT @@max_allowed_packet, @@character_set_client, 
+        @@character_set_connection, @@license, @@sql_mode, @@lower_case_table_names, @@autocommit
+    db.name: mysql
+    net.peer.ip: 127.0.0.1
+    net.peer.port: 32833
+    db.user: mysql
+Resource associated with Activity:
+    service.name: my-app
+    service.instance.id: 4b141ee8-b94a-4cca-a310-4b8bd74ae7b3
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.5.1
+
+Activity.TraceId:            1e50f382242bc6c018aed4cfce17c4b1
+Activity.SpanId:             e048cf84889abaf9
+Activity.TraceFlags:         Recorded
+Activity.ActivitySourceName: OpenTelemetry.Instrumentation.MySqlData
+Activity.DisplayName:        mysql
+Activity.Kind:               Client
+Activity.StartTime:          2023-07-07T12:52:46.9162828Z
+Activity.Duration:           00:00:00.0006890
+Activity.Tags:
+    db.system: mysql
+    db.statement: SELECT TIMEDIFF(NOW(), UTC_TIMESTAMP())
+    db.name: mysql
+    net.peer.ip: 127.0.0.1
+    net.peer.port: 32833
+    db.user: mysql
+Resource associated with Activity:
+    service.name: my-app
+    service.instance.id: 4b141ee8-b94a-4cca-a310-4b8bd74ae7b3
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.5.1
+
+Activity.TraceId:            239893ce1baff72659ae9ec2bc02c12f
+Activity.SpanId:             eff0ac65d0a3f494
+Activity.TraceFlags:         Recorded
+Activity.ActivitySourceName: OpenTelemetry.Instrumentation.MySqlData
+Activity.DisplayName:        mysql
+Activity.Kind:               Client
+Activity.StartTime:          2023-07-07T12:52:46.9173107Z
+Activity.Duration:           00:00:00.0026774
+Activity.Tags:
+    db.system: mysql
+    db.statement: SHOW COLLATION
+    db.name: mysql
+    net.peer.ip: 127.0.0.1
+    net.peer.port: 32833
+    db.user: mysql
+Resource associated with Activity:
+    service.name: my-app
+    service.instance.id: 4b141ee8-b94a-4cca-a310-4b8bd74ae7b3
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.5.1
+
+Activity.TraceId:            1bc57e0803df7054ef008e1ec7af7956
+Activity.SpanId:             76f194de042bab5f
+Activity.TraceFlags:         Recorded
+Activity.ActivitySourceName: OpenTelemetry.Instrumentation.MySqlData
+Activity.DisplayName:        mysql
+Activity.Kind:               Client
+Activity.StartTime:          2023-07-07T12:52:46.9203286Z
+Activity.Duration:           00:00:00.0002389
+Activity.Tags:
+    db.system: mysql
+    db.statement: SET NAMES utf8mb4
+    db.name: mysql
+    net.peer.ip: 127.0.0.1
+    net.peer.port: 32833
+    db.user: mysql
+Resource associated with Activity:
+    service.name: my-app
+    service.instance.id: 4b141ee8-b94a-4cca-a310-4b8bd74ae7b3
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.5.1
+
+Activity.TraceId:            3ff78867a548cbf517abc39f2c63bcea
+Activity.SpanId:             c60fc02a0c7f5197
+Activity.TraceFlags:         Recorded
+Activity.ActivitySourceName: OpenTelemetry.Instrumentation.MySqlData
+Activity.DisplayName:        mysql
+Activity.Kind:               Client
+Activity.StartTime:          2023-07-07T12:52:46.9206646Z
+Activity.Duration:           00:00:00.0001845
+Activity.Tags:
+    db.system: mysql
+    db.statement: SET character_set_results=NULL
+    db.name: mysql
+    net.peer.ip: 127.0.0.1
+    net.peer.port: 32833
+    db.user: mysql
+Resource associated with Activity:
+    service.name: my-app
+    service.instance.id: 4b141ee8-b94a-4cca-a310-4b8bd74ae7b3
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.5.1
+
+Activity.TraceId:            29173b343f753c2c7eb26f6cd987e318
+Activity.SpanId:             1baaeb66232d9f47
+Activity.TraceFlags:         Recorded
+Activity.ActivitySourceName: OpenTelemetry.Instrumentation.MySqlData
+Activity.DisplayName:        mysql
+Activity.Kind:               Client
+Activity.StartTime:          2023-07-07T12:52:46.9239021Z
+Activity.Duration:           00:00:00.0001645
+Activity.Tags:
+    db.system: mysql
+    db.statement: SELECT 1
+    db.name: mysql
+    net.peer.ip: 127.0.0.1
+    net.peer.port: 32833
+    db.user: mysql
+Resource associated with Activity:
+    service.name: my-app
+    service.instance.id: 4b141ee8-b94a-4cca-a310-4b8bd74ae7b3
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.5.1
+
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\git\MySqlDataInstrumentationIssues\MyApp
+dbug: Microsoft.Extensions.Hosting.Internal.Host[2]
+      Hosting started

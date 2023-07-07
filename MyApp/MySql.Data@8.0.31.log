@@ -1,0 +1,57 @@
+Building...
+dbug: Program[0]
+      Starting MySql container
+info: Program[0]
+      Connected to Docker:
+        Host: npipe://./pipe/docker_engine
+        Server Version: 23.0.6
+        Kernel Version: 5.15.90.1-microsoft-standard-WSL2
+        API Version: 1.42
+        Operating System: Rancher Desktop WSL Distribution
+        Total Memory: 30.92 GB
+info: Program[0]
+      Docker container 16a994e9ae8e created
+info: Program[0]
+      Start Docker container 16a994e9ae8e
+info: Program[0]
+      Wait for Docker container 16a994e9ae8e to complete readiness checks
+info: Program[0]
+      Docker container 16a994e9ae8e ready
+info: Program[0]
+      Docker container 2a8c81721962 created
+info: Program[0]
+      Start Docker container 2a8c81721962
+info: Program[0]
+      Wait for Docker container 2a8c81721962 to complete readiness checks
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 2a8c81721962
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 2a8c81721962
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 2a8c81721962
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 2a8c81721962
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 2a8c81721962
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 2a8c81721962
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 2a8c81721962
+info: Program[0]
+      Execute "mysql --protocol=TCP --port=3306 --user=mysql --password=mysql mysql --wait --silent --execute=SELECT 1;" at Docker container 2a8c81721962
+info: Program[0]
+      Docker container 2a8c81721962 ready
+dbug: Program[0]
+      Started MySql container
+dbug: Microsoft.Extensions.Hosting.Internal.Host[1]
+      Hosting starting
+info: MyApp.Worker[0]
+      Sending MySql command
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\git\MySqlDataInstrumentationIssues\MyApp
+dbug: Microsoft.Extensions.Hosting.Internal.Host[2]
+      Hosting started
