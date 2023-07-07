@@ -1,6 +1,5 @@
 using DotNet.Testcontainers.Configurations;
 using MyApp;
-using MySql.Data.MySqlClient;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 using Testcontainers.MySql;
